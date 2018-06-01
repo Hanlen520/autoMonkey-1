@@ -1,0 +1,1 @@
+adb shell monkey -p com.nearme.instant.platform  -v -v -v  -s 500 --throttle 100 --ignore-crashes --ignore-timeouts --monitor-native-crashes 100000 > monkey.log
